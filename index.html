@@ -6,9 +6,10 @@
 <body>
   <div class="search">
       <form action="http://www.google.com/search" class="searchform" method="GET" name="searchform" target="_blank">
-          <input type="hidden" name="sitesearch" value="" style=width:408px;height:40px;>
-          <input type="text" autocomplete="off" onfocus="this.value=''" class="search" name="q" placeholder="Search on Google" required="required">
+          <input type="hidden" name="sitesearch" value="">
+          <input type="text" autocomplete="off" onfocus="this.value=''" class="search" name="q" placeholder="Search on Google" required="required"  style=width:408px;height:40px;>
           <button type="submit">Search</button>
       </form>
+      <iframe src="https://duckduckgo.com/search.html?prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
   </div>
 </body>
